@@ -1,0 +1,14 @@
+server:
+  port: 8080
+eureka:
+  instance:
+    hostname: localhost
+  server:
+    enable-self-preservation: false
+  client:
+    # 是否注册到服务端
+    register-with-eureka: false
+    # 是否从 eureka 服务端拉取配置
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
