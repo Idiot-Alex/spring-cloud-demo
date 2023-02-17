@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="page-screenshot-demo" />
-        <module name="eureka-client-demo" />
         <module name="eureka-server-demo" />
+        <module name="eureka-client-demo" />
+        <module name="eureka-client-consumer" />
       </profile>
     </annotationProcessing>
   </component>
