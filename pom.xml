@@ -15,6 +15,8 @@
         <module>turbine-demo</module>
         <module>feign-consumer</module>
         <module>zuul-demo</module>
+        <module>sleuth-demo1</module>
+        <module>sleuth-demo2</module>
     </modules>
 
     <packaging>pom</packaging>
