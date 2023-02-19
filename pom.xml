@@ -7,6 +7,13 @@
     <groupId>org.example</groupId>
     <artifactId>spring-cloud-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>eureka-server-demo</module>
+        <module>eureka-client-demo</module>
+        <module>eureka-client-consumer</module>
+        <module>hystrix-dashboard-demo</module>
+        <module>turbine-demo</module>
+    </modules>
 
     <packaging>pom</packaging>
 </project>
