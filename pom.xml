@@ -14,6 +14,7 @@
         <module>hystrix-dashboard-demo</module>
         <module>turbine-demo</module>
         <module>feign-consumer</module>
+        <module>zuul-demo</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Zuul-Demo
+
+server:
+  port: 12588
+
+
+zuul:
+  routes:
+    hello:
+      path: /hello/
+      url: http://localhost:8083
+    api-server:
+      path: /api/**
+      service-id: Server-Provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+
+
