@@ -13,6 +13,7 @@
         <module>eureka-client-consumer</module>
         <module>hystrix-dashboard-demo</module>
         <module>turbine-demo</module>
+        <module>feign-consumer</module>
     </modules>
 
     <packaging>pom</packaging>
